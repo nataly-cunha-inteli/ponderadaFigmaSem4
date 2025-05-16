@@ -31,9 +31,14 @@ pnpm dev
 bun dev
 ```
 
-Assim como será instruído nas mensagens do terminal (Veja no menu superior: `Ver>Terminal` ou aperte `Ctrl+`),acesse [http://localhost:3000](http://localhost:3000) em um navegador para visualizar as páginas e os botões.
+Assim como será instruído nas mensagens do terminal (Veja no menu superior: `Ver>Terminal` ou aperte `Ctrl+`), acesse [http://localhost:3000](http://localhost:3000) em um navegador para visualizar as páginas e os botões.
 
 
 3. Editando o componente de Botão:
     - Em `src/components/botao.tsx` é possível visualizar o código que configura o componente de botão, ao editá-lo, todas as instâncias de botão se atualizarão conforme alterações;
     - Em `src/page.tsx` tem-se a construção geral da página e a chamada dos botões. Apenas caso o texto interno do componente botão seja exatamente "Salvar", será apresentado na página o botão de Salvar. Da mesma forma, se o texto interno do componente botão seja "Editar", será apresentado na página o botão de Editar.
+
+
+## Comentários finais sobre a resolução da atividade
+
+
