@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Atividade ponderada de UX | Semana 4 | Figma
 
-## Getting Started
+**Estudantes**: Ana Carolina Pacheco, João Victor de Souza Campos, Nataly de Souza Cunha | T11 | G04
 
-First, run the development server:
+**Professor(a)**: Bruna Mayer 
+
+## 🎯 Atividade
+
+&emsp;Realização de um componente no Figma utilizando Autolayout, DevMode e demais ferramentas como forma de aprendizado da ferramenta, bem como a implementação desse componente em uma página web.
+
+## Tecnologias e estruturas de arquivos principais:
+
+- [https://nextjs.org/](Next.js): framework React que integra recursos para desenvolvimento back-end e front-end, comumente utilizado para a construção de aplicações web com renderização híbrida (SSR, SSG e CSR), roteamento eficiente e otimizações integradas;
+- `src`: integra os arquivos de desenvolvimento, como as páginas visualizáveis pelo usuário;
+- `src/components`: armazena o componente desenvolvido, a ser importado na página web;
+- `src/page.tsx`: página acessível ao usuário;
+
+## Como executar
+
+1. Execute o comando `npm i` para instalar as dependências necessárias para o funcionamento da página;
+
+2. Execute algum dos seguintes comandos, respectivamente, conforme necessidade:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Assim como será instruído nas mensagens do terminal (Veja no menu superior: `Ver>Terminal` ou aperte `Ctrl+`),acesse [http://localhost:3000](http://localhost:3000) em um navegador para visualizar as páginas e os botões.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Editando o componente de Botão:
+    - Em `src/components/botao.tsx` é possível visualizar o código que configura o componente de botão, ao editá-lo, todas as instâncias de botão se atualizarão conforme alterações;
+    - Em `src/page.tsx` tem-se a construção geral da página e a chamada dos botões. Apenas caso o texto interno do componente botão seja exatamente "Salvar", será apresentado na página o botão de Salvar. Da mesma forma, se o texto interno do componente botão seja "Editar", será apresentado na página o botão de Editar.
