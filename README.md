@@ -10,7 +10,7 @@
 
 ## Tecnologias e estruturas de arquivos principais:
 
-- [https://nextjs.org/](Next.js): framework React que integra recursos para desenvolvimento back-end e front-end, comumente utilizado para a construção de aplicações web com renderização híbrida (SSR, SSG e CSR), roteamento eficiente e otimizações integradas;
+- [Next.js](https://nextjs.org/): framework React que integra recursos para desenvolvimento back-end e front-end, comumente utilizado para a construção de aplicações web com renderização híbrida (SSR, SSG e CSR), roteamento eficiente e otimizações integradas;
 - `src`: integra os arquivos de desenvolvimento, como as páginas visualizáveis pelo usuário;
 - `src/components`: armazena o componente desenvolvido, a ser importado na página web;
 - `src/page.tsx`: página acessível ao usuário;
