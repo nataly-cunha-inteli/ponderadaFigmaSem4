@@ -41,4 +41,4 @@ Assim como será instruído nas mensagens do terminal (Veja no menu superior: `V
 
 ## Comentários finais sobre a resolução da atividade
 
-
+A presente atividade foi uma interessante oportunidade de colocar em prática a ferramenta de design Figma e nos manter atualizados de seus lançamentos de features, extremamente úteis para o desenvolvimento front-end e design de experiência de usuário. Passamos por uma pequena curva de aprendizagem, muito fácil de ser superada, para utilizarmos as funcionalidades do Figma, rapidamente conseguindo chegar à construção de um componente com Autolayout, prototipação, propriedades, etc. Para a implementação, o trio teve um pouco mais de dificuldade em descobrir a maneira certa de transportar todas as propriedades do componente no código e, apesar de que não de maneira perfeita em disposição de tela, conseguimos reproduzir o componente e as instâncias de maneira fidedigna ao planejado.
